@@ -1,0 +1,25 @@
+{
+  "name": "live_video_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-rtsp-stream": "^0.0.9",
+    "nodemon": "^2.0.16",
+    "rtsp-relay": "^1.6.1"
+  },
+  "scripts": {
+    "server": "nodemon index.js"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavelkv94/live_video_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavelkv94/live_video_server/issues"
+  },
+  "homepage": "https://github.com/Pavelkv94/live_video_server#readme"
+}
